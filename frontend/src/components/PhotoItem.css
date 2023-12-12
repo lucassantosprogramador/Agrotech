@@ -1,0 +1,50 @@
+.photo-item img {
+    margin: 20px auto;
+    width: 400px;
+    height: 350px;
+  }
+  
+  #home .photo-item h2 {
+    font-size: 1rem;
+    margin: 30px;
+    margin-left: 60px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  
+  .photo-author a {
+    font-weight: bold;
+  }
+  
+  .photo-item {
+    background: #D9D8D0;
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+  }
+  
+  .photo-author .userImg {
+    display: inline-block;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -13px;
+  }
+
+  .photo-author a{
+    text-align: left;
+    margin-left: 60px;
+    font-size: 20px;
+    color: black;
+  }
+
+  .photo-author {
+    display: inline-block;
+    flex-direction: row;
+  }

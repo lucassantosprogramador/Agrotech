@@ -1,0 +1,142 @@
+#profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile-header {
+  grid-column: 1;
+  font-size: 1.2rem;
+  background: #D9D8D0;
+
+}
+
+.new-photo{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+  background: #D9D8D0;
+  height: 200px;
+}
+
+.new-photo input {
+  height: 30px;
+  width: 300px;
+  border: none;
+  margin: 10px;
+}
+.edit-photo {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3;
+  margin: 0px;
+  background: #D9D8D0;
+}
+
+.edit-photo, .new-photo, .profile-header {
+  border-bottom: #11402F 4px solid;
+  padding: 20px;
+}
+
+.edit-photo input {
+  height: 30px;
+  width: 300px;
+  border: none;
+  margin: 10px;
+  display: flex;
+}
+
+.cancel-btn{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.atualizar {
+  background: #11402F;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.edit-photo h3 {
+  align-items: flex-start;
+}
+
+.edit-photo img {
+  width: 90px;
+  height: 115px;
+}
+
+.user-photos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+}
+
+.btn {
+  background-color: #11402F;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.user-photos {
+  grid-column: 1 / 4;
+}
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+  
+  .profile-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 2em;
+  }
+  
+  .new-photo {
+    padding: 1em;
+  }
+  
+  .photos-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    background: #C6C5BD;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+  }
+  
+  .photo img {
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    margin: 40px 10px 10px 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .edit-photo img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  

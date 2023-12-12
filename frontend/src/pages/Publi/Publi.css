@@ -1,0 +1,11 @@
+#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F1E9;
+  }
+  
+  .publi {
+    text-align: center;
+  }

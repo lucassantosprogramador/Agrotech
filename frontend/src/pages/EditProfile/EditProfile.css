@@ -1,0 +1,59 @@
+  .container-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D9D8D0;
+    padding: 1.5em 2em;
+    max-width: 70%;
+    margin: 2em auto;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .perfil {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px auto;
+    box-shadow: 10px 10px 10px #555;
+  }
+
+  .container-profile h2 {
+    color: #154D38;
+  }
+
+  .form-profile {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputs-edit  {
+    width: 300px;
+    height: 30px;
+    background: #C6C5BD;
+    margin: 0 0 20px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .btn-profile {
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #58736E;
+    border: none;
+    border-radius: 0.5rem;
+    background: #11402F;
+    color: #FFF;
+    justify-items: start;
+    margin: 30px 0 20px 0;
+  }

@@ -1,0 +1,76 @@
+.plano-init {
+    grid-column: 1 / 4;
+    text-align: center;
+    background: #D9D8D0;
+    padding: 40px 0px 40px 0px;
+    margin-bottom: 40px;
+}
+
+.init-title {
+    color: #154D38;
+    font-size: 2rem;
+}
+
+.division-plano {
+    margin: 10px auto;
+}
+
+.planos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.plano-padrao {
+    display: grid;
+    grid-column: 1;
+}
+
+.plano-mensal {
+    display: grid;
+    grid-column: 2;
+}
+
+.plano-anual {
+    display: grid;
+    grid-column: 3;
+}
+
+.plano-container {
+    background: #D9D8D0;
+    margin: 20px;
+    text-align: left;
+    width: 400px;
+}
+
+.plano-container h3, ul {
+    padding: 20px;
+}
+
+.plano-title {
+    color: #154D38;
+    font-size: 2.2rem;
+    margin-top: 30px;
+}
+
+.plano-list {
+    margin: 40px 0px 40px 0px;
+}
+
+.plano-list li {
+    margin-bottom: 10px;
+}
+
+.plano-preco {
+    background: #C6C5BD;
+    text-align: center;
+}
+
+.btn-comprar {
+    margin: 20px auto;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background: #11402F;
+    color: white;
+}

@@ -1,0 +1,139 @@
+.container-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.cadastro-text {
+    background: #c4c4c4;
+    padding: 3rem 5rem;
+    border-radius: 10px;
+}
+
+.cadastro-text h1{
+    font-size: 3rem;
+    color: #384D19;
+}
+
+.division {
+    margin: 0px;
+    width: 250px;
+    height: 10px;
+    border-radius: 10px;
+    background: #8CBF3F;
+}
+
+.cadastro-text h1 p {
+    font-size: 2rem;
+    margin: 0px;
+    color: #8C8C87;
+}
+
+.inputs  {
+    width: 400px;
+    height: 40px;
+    background: #D9D8D0;
+    margin: 0 0 20px 0;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.cadastro-input {
+    margin: 60px 0 0 0;
+}
+
+.cadastro-input label {
+    color: #58736E;
+    font-size: 1.2rem;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #58736E;
+    border: none;
+    border-radius: 0.5rem;
+    background: #11402F;
+    color: #FFF;
+    justify-items: start;
+    margin: 30px 0 20px 0;
+}
+
+.btn-cadastrar:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+
+/*LOGIN*/
+
+.container-login {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login-text {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-text h1{
+    grid-column: 1;
+    font-size: 3rem;
+    color: #384D19;
+}
+
+.division {
+    margin: 0px;
+    width: 250px;
+    height: 10px;
+    border-radius: 10px;
+    background: #8CBF3F;
+}
+
+.login-text h1 p {
+    font-size: 2rem;
+    margin: 0px;
+    color: #8C8C87;
+}
+
+.login-input {
+    grid-column: 1;
+    margin: 60px 0 40px 0;
+}
+
+.login-input label {
+    color: #58736E;
+    font-size: 1.2rem;
+}
+
+.login-img {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    grid-column: 2; 
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #58736E;
+    border: none;
+    border-radius: 0.5rem;
+    background: #11402F;
+    color: #FFF;
+    justify-items: start;
+    margin: 30px 0 20px 0;  
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}

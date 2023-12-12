@@ -1,0 +1,160 @@
+.container-sobre-init {
+    display: grid;
+    grid-template-columns: 500px 2fr;
+    height: 100%;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px #c4c4c4;
+}
+
+
+.init-text {
+    grid-column: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.title-init, .init-descri, .btn-cadastro {
+    margin-top: 2em;
+}
+
+.title-init {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #227556;
+    margin-top: 64px;
+}
+
+.btn-cadastro {
+    background: #227556;
+}
+
+.init-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.agronomia {
+    grid-column: 1;
+}
+
+.agronomia .back-img {
+    height: 30em;
+}
+
+.trator {
+    grid-column: 2;
+}
+
+.trator .back-img {
+    height: 35em;
+}
+
+.pecuaria {
+    grid-column: 3;
+}
+
+.pecuaria .back-img {
+    height: 40em;
+}
+
+.icon-img {
+    margin: 10px auto;
+}
+
+.container-sobre {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    height: 100%;
+    box-shadow: 5px 5px 5px #c4c4c4;
+}
+
+.sobre-text {
+    margin: 190px 0 190px 80px; 
+    grid-column: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.sobre-title {
+    font-size: 3rem;
+    margin-bottom: 64px;
+}
+
+.sobre-title span {
+    color: #227556;
+}
+
+.sobre-intro {
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.sobre-img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.separador{
+    grid-column: 2;
+    margin-bottom: -25px;
+}
+
+.container-cultivo, .container-pecuaria {
+    margin-top: 140px;
+    box-shadow: 5px 5px 5px #c4c4c4;
+}
+
+.cultivo-text, .pecuaria-text {
+    text-align: center;
+}
+
+.cultivo-title, .pecuaria-title {
+    font-size: 3rem;
+}
+
+.cultivo-text span, .pecuaria-text span {
+    color: #2DA679;
+}
+
+.cultivo-list, .pecuaria-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text, .number {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.number {
+    font-size: 6rem;
+    margin: 40px 20px 40px 80px;
+}
+
+.text {
+    width: 430px;
+    font-size: 18px;
+}
+
+.separador-left {
+    margin-top: -20px;
+    height: 40px;
+}
+
+.list-five {
+    margin-bottom: 20px;
+}
+
+.btn-cadastro {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #11402F;
+    color: white;
+}

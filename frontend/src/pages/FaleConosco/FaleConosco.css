@@ -1,0 +1,43 @@
+
+
+.container-init-contato {
+    background: url('../../assets/background-contato.png') no-repeat center center;
+    width: 100%;
+    height: 20em;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.init-contato input {
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 600px;
+    border: none;
+}
+
+.init-img-contato {
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.subtitle-contato {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin: 0px;
+}
+
+.subtitle-contato, .init-img-contato {
+    display: inline-block;
+}
+
+.container-duvidas {
+    font-size: 2rem;
+    margin: 40px 0 0 80px
+}
+
+.subtitle-duvidas {
+    color: #79A637;
+}
